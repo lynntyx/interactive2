@@ -1,0 +1,28 @@
+body{
+	text-align: center;
+	background-color: #F8F8FF;
+	font-family: Helvetica;
+}
+
+#container{
+	border: 20px black double;
+	width: 600px;
+	margin:0 auto;
+	padding: 20px;
+}
+
+td{
+	line-height: 1.5em;
+	text-align: center;
+	padding: 2px;
+}
+
+a{
+	text-decoration: none;
+}
+
+table{
+	width:400px;
+	margin: 0 auto;
+	padding:5px;
+}

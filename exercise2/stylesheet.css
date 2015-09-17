@@ -12,19 +12,22 @@ a{
 	font-family: 'Poiret One', cursive;
 	text-decoration: none;
 	letter-spacing: 0.2em;
+	padding: 6px;
 }
 
 #intro{
 	font-family: helvetica;
 	width: 600px;
-	margin: 0 auto;
+	margin: 0px auto 24px auto;
 	color: white;
 	padding: 0 44px;
 	border: white solid 4px;
 }
 
 a:hover{
-
+	color: red;
+	background-color: white;
+	padding: 6px;
 }
 
 .container{
@@ -41,6 +44,15 @@ h1{
 	text-align: center;
 	color: white;
 	letter-spacing: 0.1em;
+}
+
+h2{
+	text-transform: uppercase;
+	color: red;
+	border: 4px red solid;
+	padding:6px;
+	text-align: center;
+	margin-top: 50px;
 }
 
 ul{
