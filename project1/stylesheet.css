@@ -1,6 +1,36 @@
+body{
+	font-family: 'Questrial', sans-serif;
+	background-color: #F0FFFF;
+}
+
+#container{
+	width: 600px;
+	margin: 50px auto;
+}
 
 h1 {
-	font-family: Helvetica;
-	font-size: 22px;
-	color: red;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	font-size: 40px;
+	color: orange;
+}
+
+p{	
+	color: orange;
+	font-size: 14px;
+	line-height: 1.3em;
+}
+
+img{
+	margin: 0 30px;
+	width:500px;
+	padding:20px;
+	border-top: 1px solid #DCDCDC;
+}
+
+.music{
+	margin-left: 20px;
+	margin-top: 10px;
+	position: fixed;
 }
