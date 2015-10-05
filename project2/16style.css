@@ -1,0 +1,27 @@
+#container{
+	width: 390px;
+	margin-top:500px;
+	margin-left:300px;
+	position: relative;
+}
+#head{
+	font-family: Avenir, Sans Serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: -0.1em;
+	position: relative;
+	float: left;
+	padding: 5px;
+}
+#body{
+	font-family: Baskerville, Serif;
+	font-size: 24px;
+	letter-spacing: 0.1em;
+	line-height: 1.2em;
+
+}
+#next{
+	width: 50px;
+	font-size: 24px;
+	letter-spacing: 0.1em;
+}

@@ -1,15 +1,15 @@
 body{
 	text-align: center;
-	background-color: #ADD8E6;
 	font-family: Helvetica;
 	font-weight: bold;
+	background-image: url(background.jpg);
 }
 
 #container{
-	border: 15px white solid;
 	width: 600px;
-	margin:0 auto;
+	margin:30px auto;
 	padding: 20px;
+	background-color: #F3FBFD;
 }
 
 h1{
@@ -31,7 +31,7 @@ a{
 }
 
 a:hover{
-	color: white;
+	color: #ADD8E6;
 	padding:4px;
 }
 

@@ -1,0 +1,31 @@
+body{
+	width: 2700px;
+}
+.head{
+	margin-top: 70px;
+	margin-left: 600px;
+	position: fixed;
+	background-color: white;
+	border: 7px solid black;
+	padding:7px;
+	text-align: center;
+}
+h6{
+	margin-top: 50px;
+}
+#container{
+	margin-left: 100px;
+}
+.text-blocks{
+	vertical-align : top;
+	border: 3px black solid;
+	padding:5px;
+	display: inline-block;
+	width: 250px;
+	margin-top: 300px;
+	margin-left: 30px;
+}
+#next{
+	width: 50px;
+	margin: 0 auto;
+}

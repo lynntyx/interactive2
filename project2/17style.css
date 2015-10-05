@@ -1,0 +1,27 @@
+#container{
+	width: 1000px;
+	margin-top:500px;
+	margin-left:300px;
+	position: relative;
+}
+#head{
+	font-family: Helvetica, Sans Serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	position: relative;
+	float: left;
+	padding: 10px;
+}
+#body{
+	font-family: cursive;, Serif;
+	font-size: 100px;
+	line-height: 1.2em;
+
+}
+
+#next{
+	width: 50px;
+	font-size: 70px;
+	letter-spacing: 0.1em;
+}

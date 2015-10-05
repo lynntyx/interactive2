@@ -1,0 +1,17 @@
+body{
+	margin-top: 300px;
+	width: 5000px;
+}
+
+span1{
+	padding: 2px;
+	border-top: 10px solid black;
+}
+span2{
+	padding: 2px;
+	border-bottom: 10px solid black;
+}
+#next{
+	width: 50px;
+	margin: 0 auto;
+}

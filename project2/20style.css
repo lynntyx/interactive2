@@ -1,0 +1,71 @@
+body{
+	width: 2000px;
+}
+.head{
+	margin-top: 70px;
+	margin-left: 900px;
+	position: fixed;
+	border-left: 5px solid black;
+	background-color: white;
+	padding-left:20px;
+	text-transform: uppercase;
+}
+h6{
+	margin-top: 50px;
+
+}
+#container{
+	width: 800px;
+	margin-top: 70px;
+	margin-left: 50px;
+	text-align: right;
+}
+
+#text1{
+	font-family: Helvetica;
+	font-size: 10px;
+	letter-spacing: 0.1em;
+	line-height: 1.2em;
+}
+#text2{
+	font-family: Garamond;
+	font-size: 20px;
+	letter-spacing: 0.1em;
+	line-height: 1.2em;
+}
+#text3{
+	font-family: Avenir;
+	font-size: 40px;
+	letter-spacing: 0.1em;
+	line-height: 1.2em;
+}
+#text4{
+	font-family: Bembo;
+	font-size: 80px;
+	letter-spacing: 0.1em;
+	line-height: 1.2em;
+}
+#text5{
+	font-family: Gill Sans;
+	font-size: 80px;
+	letter-spacing: 0.1em;
+	line-height: 1.2em;
+}
+#text6{
+	font-family: Rockwell;
+	font-size: 40px;
+	letter-spacing: 0.1em;
+	line-height: 1.2em;
+}
+#text7{
+	font-family: Century Gothic;
+	font-size: 20px;
+	letter-spacing: 0.1em;
+	line-height: 1.2em;
+}
+#text8{
+	font-family: Baskerville;
+	font-size: 10px;
+	letter-spacing: 0.1em;
+	line-height: 1.2em;
+}

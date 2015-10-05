@@ -1,0 +1,27 @@
+body{
+	width: 50000px;
+}
+#head{
+	display: inline-block;
+	padding:20px;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 103px;
+	letter-spacing: 0.1em;
+}
+
+.text-blocks{
+	vertical-align : top;
+	padding:5px;
+	margin-left: 500px;
+	display: inline-block;
+	font-family: Helvetica;
+	font-size: 80px;
+}
+#next{
+	display: inline-block;
+	text-align: center;
+	padding:5px;
+	margin-left: 500px;
+	font-size: 80px;
+}
