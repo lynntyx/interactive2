@@ -1,0 +1,41 @@
+body{
+	width: 2000px;
+	background-color: #B0C4DE;
+	color:black;
+}
+#head-container{
+	height: 300px;
+	margin-left: 1020px;
+	position: fixed;
+	border-left: 10px solid white;
+}
+.head{
+	color: white;
+	margin-top: 70px;
+	padding-left:20px;
+	text-transform: uppercase;
+	font-family: Helvetica;
+	font-weight: bold;
+}
+a{
+	color: white;
+}
+h6{
+	margin-top: 50px;
+
+}
+#container{
+	width: 930px;
+	margin-top: 70px;
+	margin-left: 50px;
+	text-align: right;
+	border-right: 10px solid black;
+	padding-right:10px; 
+}
+
+#text{
+	font-family: Georgia;
+	font-size: 48px;
+	letter-spacing: 0.1em;
+	line-height: 1.2em;
+}

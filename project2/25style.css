@@ -1,0 +1,33 @@
+body{
+	color:white;
+}
+#container{
+	padding-top: 50px;
+	padding-left: 300px;
+	background-color: white;
+	-webkit-animation-name: color; 
+    -webkit-animation-duration: 30s; 
+    animation-name: color;
+    animation-duration: 30s;
+}
+@-webkit-keyframes color {
+    0% {background-color: white;}
+    5% {background-color: white;}
+    6% {background-color: #778899;}
+    100%{background-color: white;}
+}
+h1{
+	margin-top: 20px;
+	position: fixed;
+	padding:5px;
+}
+h6{
+	margin-top: 100px;
+}
+#next{
+	width: 50px;
+	margin: 0 auto;
+}
+a{
+	color:white;
+}

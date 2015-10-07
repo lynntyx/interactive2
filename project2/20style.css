@@ -28,44 +28,47 @@ h6{
 	line-height: 1.2em;
 }
 #text2{
-	font-family: Garamond;
+	font-family: Georgia;
 	font-size: 20px;
 	letter-spacing: 0.1em;
 	line-height: 1.2em;
 }
 #text3{
-	font-family: Avenir;
+	font-family: Geneva;
 	font-size: 40px;
 	letter-spacing: 0.1em;
 	line-height: 1.2em;
 }
 #text4{
-	font-family: Bembo;
+	font-family: Palatino;
 	font-size: 80px;
 	letter-spacing: 0.1em;
 	line-height: 1.2em;
 }
 #text5{
-	font-family: Gill Sans;
+	font-family: Helvetica;
 	font-size: 80px;
 	letter-spacing: 0.1em;
 	line-height: 1.2em;
 }
 #text6{
-	font-family: Rockwell;
+	font-family: Georgia;
 	font-size: 40px;
 	letter-spacing: 0.1em;
 	line-height: 1.2em;
 }
 #text7{
-	font-family: Century Gothic;
+	font-family: Geneva;
 	font-size: 20px;
 	letter-spacing: 0.1em;
 	line-height: 1.2em;
 }
 #text8{
-	font-family: Baskerville;
+	font-family: Palatino;
 	font-size: 10px;
 	letter-spacing: 0.1em;
 	line-height: 1.2em;
+}
+#next{
+	width: 50px;
 }

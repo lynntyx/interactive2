@@ -1,0 +1,33 @@
+body{
+	margin-top: 300px;
+	width: 5000px;
+}
+
+span1{
+	padding: 2px;
+	border-top: 10px solid #ADD8E6;
+}
+span2{
+	padding: 2px;
+	border-bottom: 10px solid #ADD8E6;
+}
+#next{
+	width: 50px;
+	margin: 0 auto;
+}
+
+p {
+    -webkit-animation-name: wave;
+    -webkit-animation-duration: 10s; 
+    animation-name: wave;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes wave {
+    0%   {margin-top: 10px}
+    20%  {margin-top: -10px}
+    40%  {margin-top: 10px}
+    80% {margin-top: -10px}
+    100%  {margin-top: 10px}
+}

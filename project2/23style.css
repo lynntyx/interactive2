@@ -1,0 +1,69 @@
+body{
+	width: 2700px;
+	font-family: Arial;
+	background-color: #778899;
+}
+.head{
+	height: 170px;
+	margin-top: 70px;
+	margin-left: 600px;
+	position: fixed;
+	background-color: white;
+	border: 7px solid black;
+	padding:7px;
+	text-align: center;
+}
+h6{
+	margin-top: 50px;
+}
+#container{
+	margin-left: 100px;
+}
+.text-blocks1{
+	background-color: white;
+	-webkit-animation-name: wave1;
+    -webkit-animation-duration: 5s; 
+    animation-name: wave1;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+	vertical-align : top;
+	border: 5px black solid;
+	padding:10px;
+	display: inline-block;
+	width: 250px;
+	margin-top: 320px;
+	margin-left: 30px;
+}
+@-webkit-keyframes wave1 {
+    0%   {margin-top: 600px}
+    20%  {margin-top: 100px}
+    40%  {margin-top: 400px}
+    80%  {margin-top: 100px}
+    100% {margin-top: 600px}
+}
+.text-blocks2{
+	background-color: white;
+	-webkit-animation-name: wave2;
+    -webkit-animation-duration: 5s; 
+    animation-name: wave2;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+	vertical-align : top;
+	border: 5px black solid;
+	padding:10px;
+	display: inline-block;
+	width: 250px;
+	margin-top: 320px;
+	margin-left: 30px;
+}
+@-webkit-keyframes wave2 {
+    0%   {margin-top: 300px}
+    20%  {margin-top: 400px}
+    40%  {margin-top: 300px}
+    80%	 {margin-top: 350px}
+    100% {margin-top: 300px}
+}
+#next{
+	width: 50px;
+	margin: 0 auto;
+}

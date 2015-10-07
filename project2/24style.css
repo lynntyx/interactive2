@@ -1,0 +1,37 @@
+body{
+	font-family: Arial;
+	background-color: #778899;
+}
+
+#container{
+	padding: 20px;
+	width: 220px;
+	margin: 0 auto;
+	color:#778899;
+	background-color: black;
+	-webkit-animation-name: color; 
+    -webkit-animation-duration: 15s; 
+    animation-name: color;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes color {
+    0% {background-color: black;}
+    25% {background-color: white;}
+    50% {background-color: black;}
+    75% {background-color: white;}
+    100%{background-color: black;}
+}
+
+h1,h5{
+	text-align: center;
+	text-transform: uppercase;
+}
+#next{
+	width: 50px;
+	margin: 0 auto;
+}
+a{
+	color:#778899;
+}
