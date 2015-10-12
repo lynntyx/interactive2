@@ -29,3 +29,24 @@ h6{
 	width: 50px;
 	margin: 0 auto;
 }
+#menu{
+	position: fixed;
+	top: 0;
+	width: 1430px;
+}
+.arrow{
+	padding: 5px;
+	width:700px;
+	display: inline-block;
+	text-align: center;
+}
+
+.arrow a{
+	font-family: helvetica;
+	color:#4682B4;
+}
+
+a:hover{
+	background-color: black;
+	color:white;
+}

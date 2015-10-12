@@ -1,20 +1,6 @@
 body{
-	margin: 0 auto;
-	width: 950px;
-	text-align: center;
-	padding:0px;
+	margin: 0;
 }
-
-.border{
-	padding:10px;
-	border: 10px solid black;
-}
-
-#next{
-	width: 30px;
-	margin: 0 auto;
-}
-
 #menu{
 	position: fixed;
 	top: 0;
