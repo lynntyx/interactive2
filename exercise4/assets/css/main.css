@@ -1,0 +1,173 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	height: 700px;
+	width: 456px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+.canvas2{
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+.object{
+	position: absolute;
+}
+
+.canvas .red{
+	background: #FF4730;
+	height: 700px;
+	width: 456px;
+}
+
+.squash{
+	background: #FFA500;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    bottom: 50px;
+    left: 80px;
+    z-index: 1;
+}
+
+.sphere {
+    background: #fff;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    bottom: 130px;
+    left: 140px;
+}
+
+.flower.one {
+    left: 40px;
+}
+
+.flower.two {
+    left: 10px;
+}
+
+.flower.three {
+    left: 60px;
+}
+
+.vase-container {
+    width: 100px;
+    height: 450px;
+    bottom: 180px;
+    right: 330px;
+}
+
+.stem {
+    background: green;
+    width: 10px;
+    height:425px;
+}
+
+.petal {
+    background: indigo;
+    width: 50px;
+    height: 20px;
+    border-radius: 50%;
+    top: -10px;
+}
+
+.vase {
+    width: 100px;
+    height: 250px;
+    background: #fff;
+    opacity: .5;
+    bottom: 0;
+}
+
+.vase-bottom {
+    width: 100px;
+    height: 25px;
+    border-radius: 50%;
+    bottom: -12px;
+    background: #fff;
+    z-index: 1;
+}
+
+.vase-top {
+    width: 100px;
+    height: 25px;
+    border-radius: 50%;
+    top: -12px;
+    background: #fff;
+}
+
+
+.canvas2 .blue{
+	background: #85FFEB;
+	width: 900px;
+	height: 556px;
+}
+
+.sphere2 {
+    background: #fff;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    bottom: 130px;
+    right: 70px;
+    z-index: 1;
+}
+
+.glass-container{
+	width: 100px;
+	height: 200px;
+	bottom:100px;
+	right:380px;
+	z-index: 1;
+}
+
+.glass-body{
+	border-top: 180px solid white;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	height: 0;
+	width: 100px;
+	bottom: 10px;
+	opacity: 0.6;
+}
+
+.glass-bottom{
+	width: 72px;
+	height: 20px;
+	bottom: 0;
+	background-color: white;
+	left:15px;
+	border-radius: 50%;
+}
+
+.glass-top{
+    width: 100px;
+    height: 20px;
+    top: 0;
+    background-color: #FFD700;
+    border: white 2px solid;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.banana{
+    width:270px;
+    height:150px;
+    background-color: #FFD700;
+    border-radius: 10%;
+    bottom: 170px;
+    left: 280px;
+}
