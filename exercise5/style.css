@@ -1,0 +1,55 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background: url('gif/1.gif');
+}
+
+h1 {
+	font-size: 110px;
+  color:yellow;
+  font-family: Helvetica;
+  letter-spacing: 0.1em;
+}
+
+@media screen and (max-width: 1024px) {
+
+  body { background: url('gif/2.gif'); }
+  h1 { font-size: 70px;
+  color:blue; }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  body { background: url('gif/3.gif'); }
+  h1 { font-size: 50px; 
+  color:yellow;}
+
+}
+
+@media screen and (max-width: 600px) {
+
+  body { background: url('gif/4.gif'); }
+  h1 { font-size: 20px; 
+  color:blue;}
+
+}
+
+@media screen and (max-width: 480px) {
+  
+  body { background: url('gif/5.gif'); }
+  h1 { font-size: 10px; 
+  color:yellow;}
+  div { display: block; }
+
+}
+
+@media screen and (max-width: 320px) {
+
+  body { background: url('gif/6.gif');}
+  h1 { font-size: 8px; 
+  color:blue;}
+
+}
