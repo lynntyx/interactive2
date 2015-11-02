@@ -1,0 +1,44 @@
+body{
+	margin:0;
+	padding: 50px;
+	background-color: yellow;
+}
+
+#container{
+	margin: 0 auto;
+	width: 720px;
+	border: black 10px solid;
+	padding:20px;
+}
+
+.letter{
+	height: 150px;
+    width: 110px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    position: relative;
+	background: white;
+	display: inline-block;
+	padding: 20px;
+}
+
+.bg{
+	width: 100px;
+	height: 140px;
+	background-color: black;
+	position: absolute;
+}
+
+.small-block{
+	width: 20px;
+	height: 20px;
+	color: red;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+/*AAAAAAAA*/
+.bg.A{
+
+}
