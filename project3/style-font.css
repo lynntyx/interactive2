@@ -1,44 +1,539 @@
 body{
 	margin:0;
 	padding: 50px;
-	background-color: yellow;
+	background-color: white;
 }
 
-#container{
-	margin: 0 auto;
-	width: 720px;
-	border: black 10px solid;
-	padding:20px;
+.definition{
+	display: none;
 }
 
 .letter{
-	height: 150px;
-    width: 110px;
+	height: 180px;
+    width: 140px;
     margin-left: 20px;
     margin-bottom: 20px;
     position: relative;
-	background: white;
 	display: inline-block;
-	padding: 20px;
 }
 
+/*blockssssssssssssssssssssss*/
+.topleft-block{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 1;
+	left:10px;
+	top:10px;
+}
+
+.topright-block{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 1;
+	right:10px;
+	top:10px;
+}
+
+.bottomleft-block{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 1;
+	left:10px;
+	bottom:10px;
+}
+
+.bottomright-block{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 1;
+	right:10px;
+	bottom:10px;
+}
+
+/*backgrounddddddddddddddddd*/
 .bg{
 	width: 100px;
 	height: 140px;
 	background-color: black;
 	position: absolute;
+	margin: 20px;
 }
 
-.small-block{
+/*AAAAAAAAAAAAAAAAAAA*/
+.Ablock1{
 	width: 20px;
 	height: 20px;
-	color: red;
+	background-color: white;
 	position: absolute;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
+	z-index: 1;
+	right:40px;
+	bottom:10px;
+}
+.Ablock2{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 1;
+	left:40px;
+	bottom:10px;
+}
+.Ablock3{
+	width: 40px;
+	height: 15px;
+	background-color: white;
+	position: absolute;
+	z-index: 1;
+	left:50px;
+	bottom:19px;
 }
 
-/*AAAAAAAA*/
-.bg.A{
-
+/*BBBBBBBBBBBBBBBBB*/
+.Bblock1{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 1;
+	right:10px;
+	bottom:80px;
 }
+
+/*CCCCCCCCCCCCCCCCC*/
+.Cblock1{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 1;
+	right:10px;
+	top:50px;
+}
+.Cblock2{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 1;
+	right:10px;
+	bottom:50px;
+}
+.Cblock3{
+	width: 15px;
+	height: 60px;
+	background-color: white;
+	position: absolute;
+	z-index: 1;
+	right:19px;
+	bottom:60px;
+}
+
+/*FFFFFFFFFFFFFFFFFF*/
+.Fblock1{
+	width: 70px;
+	height: 55px;
+	background-color: white;
+	position: absolute;
+	z-index: 1;
+	right:20px;
+	bottom:20px;
+}
+.Fblock2{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 1;
+	left:40px;
+	bottom:10px;
+}
+
+/*HHHHHHHHHHHHHHHHH*/
+.Hblock1{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 1;
+	right:40px;
+	top:10px;
+}
+.Hblock2{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 1;
+	left:40px;
+	top:10px;
+}
+.Hblock3{
+	width: 40px;
+	height: 15px;
+	background-color: white;
+	position: absolute;
+	z-index: 1;
+	left:50px;
+	top:19px;
+}
+
+/*IIIIIIIIIIIIIIII*/
+.Iblock1{
+	width: 10px;
+	height: 140px;
+	background-color: white;
+	position: absolute;
+	z-index: 1;
+	right:20px;
+	bottom:20px;	
+}
+.Iblock2{
+	width: 10px;
+	height: 140px;
+	background-color: white;
+	position: absolute;
+	z-index: 1;
+	left:20px;
+	bottom:20px;	
+}
+
+/*JJJJJJJJJJJJJJJJ*/
+.Jblock1{
+	width: 14px;
+	height: 100px;
+	background-color: white;
+	position: absolute;
+	z-index: 1;
+	left:20px;
+	top:20px;	
+}
+.Jblock2{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 1;
+	right:20px;
+	bottom:10px;
+}
+.Jblock3{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 1;
+	left:10px;
+	bottom:50px;
+}
+
+/*LLLLLLLLLLLLLLLLL*/
+.Lblock1{
+	width: 14px;
+	height: 100px;
+	background-color: white;
+	position: absolute;
+	z-index: 1;
+	right:20px;
+	top:20px;	
+}
+.Lblock2{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 1;
+	left:20px;
+	bottom:10px;
+}
+.Lblock3{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 1;
+	right:10px;
+	bottom:50px;
+}
+
+/*NNNNNNNNNNNNNNN*/
+.Nblock1{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 1;
+	right:40px;
+	top:10px;
+}
+
+/*PPPPPPPPPPPPPPPP*/
+.Pblock1{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 1;
+	right:10px;
+	bottom:65px;
+}
+
+/*SSSSSSSSSSSSSSSS*/
+.Sblock1{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 1;
+	left:10px;
+	bottom:60px;
+}
+
+/*TTTTTTTTTTTTTTTT*/
+.Tblock1{
+	width: 14px;
+	height: 100px;
+	background-color: white;
+	position: absolute;
+	z-index: 1;
+	right:20px;
+	bottom:20px;	
+}
+.Tblock2{
+	width: 14px;
+	height: 100px;
+	background-color: white;
+	position: absolute;
+	z-index: 1;
+	left:20px;
+	bottom:20px;	
+}
+.Tblock3{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 1;
+	left:10px;
+	top:50px;
+}
+
+/*XXXXXXXXXXXXXXXX*/
+.Xblock1{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 1;
+	right:10px;
+	bottom:80px;
+}
+.Xblock2{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 1;
+	left:10px;
+	bottom:80px;
+}
+.Xblock3{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 1;
+	left:60px;
+	bottom:10px;
+}
+.Xblock4{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 1;
+	left:60px;
+	top:10px;
+}
+
+/*YYYYYYYYYYYYYY*/
+.Yblock1{
+	width: 14px;
+	height: 70px;
+	background-color: white;
+	position: absolute;
+	z-index: 1;
+	right:20px;
+	bottom:20px;	
+}
+.Yblock2{
+	width: 14px;
+	height: 70px;
+	background-color: white;
+	position: absolute;
+	z-index: 1;
+	left:20px;
+	bottom:20px;	
+}
+.Yblock3{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 1;
+	left:10px;
+	top:80px;
+}
+.Yblock4{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 1;
+	right:10px;
+	top:80px;
+}
+
+/*ZZZZZZZZZZZZZZ*/
+.Zblock1{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 1;
+	left:10px;
+	top:50px;
+}
+.Zblock2{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 1;
+	right:10px;
+	bottom:60px;
+}
+
+/*............*/
+.period-block{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 1;
+	left:60px;
+	bottom:25px;
+}
+
+/*,,,,,,,,,,,,*/
+.comma-block1{
+	width: 17px;
+	height: 29px;
+	background-color: black;
+	position: absolute;
+	z-index: 1;
+	left:60px;
+	bottom:20px;
+}
+.comma-block2{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 1;
+	left:50px;
+	bottom:25px;
+}
+
+/*？？？？？？？？？？*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
