@@ -1,16 +1,16 @@
 body{
 	margin:0;
+	padding: 50px;
 	background-color: yellow;
-	padding-top: 20px
 }
 
-.definition{
+.letter-definition{
 	display: none;
 }
 
 .container{
-	width: 980px;
-	background-color:yellow;
+	width: 860px;
+	background-color:white;
 	margin: 0 auto;
 }
 
@@ -23,33 +23,13 @@ body{
 	display: inline-block;
 }
 
-.menu1{
-	width:100px;
-	height: 140px;
-	position: absolute;
-	background-color: white;
-	left:50px;
-	top:0px;
-}
 
-.menu2{
-	width:100px;
-	height: 140px;
-	position: absolute;
-	background-color: white;
-	right:50px;
-	top:0px;
-}
-
-.pressed {
-	top: 10px;
-}
 
 /*blockssssssssssssssssssssss*/
 .topleft-block{
 	width: 20px;
 	height: 20px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -61,7 +41,7 @@ body{
 .topright-block{
 	width: 20px;
 	height: 20px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -73,7 +53,7 @@ body{
 .bottomleft-block{
 	width: 20px;
 	height: 20px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -85,7 +65,7 @@ body{
 .bottomright-block{
 	width: 20px;
 	height: 20px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -102,12 +82,19 @@ body{
 	position: absolute;
 	margin: 20px;
 }
+.space{
+	width: 40px;
+	height: 140px;
+	background-color: yellow;
+	position: absolute;
+	margin: 0px;
+}
 
 /*AAAAAAAAAAAAAAAAAAA*/
 .Ablock1{
 	width: 20px;
 	height: 20px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -118,7 +105,7 @@ body{
 .Ablock2{
 	width: 20px;
 	height: 20px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -129,7 +116,7 @@ body{
 .Ablock3{
 	width: 40px;
 	height: 15px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	z-index: 1;
 	left:50px;
@@ -140,7 +127,7 @@ body{
 .Bblock1{
 	width: 20px;
 	height: 20px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -153,7 +140,7 @@ body{
 .Cblock1{
 	width: 20px;
 	height: 20px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -164,7 +151,7 @@ body{
 .Cblock2{
 	width: 20px;
 	height: 20px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -175,7 +162,7 @@ body{
 .Cblock3{
 	width: 15px;
 	height: 60px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	z-index: 1;
 	right:19px;
@@ -186,7 +173,7 @@ body{
 .Fblock1{
 	width: 70px;
 	height: 55px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	z-index: 1;
 	right:20px;
@@ -195,7 +182,7 @@ body{
 .Fblock2{
 	width: 20px;
 	height: 20px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -208,7 +195,7 @@ body{
 .Hblock1{
 	width: 20px;
 	height: 20px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -219,7 +206,7 @@ body{
 .Hblock2{
 	width: 20px;
 	height: 20px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -230,7 +217,7 @@ body{
 .Hblock3{
 	width: 40px;
 	height: 15px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	z-index: 1;
 	left:50px;
@@ -241,7 +228,7 @@ body{
 .Iblock1{
 	width: 10px;
 	height: 140px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	z-index: 1;
 	right:20px;
@@ -250,7 +237,7 @@ body{
 .Iblock2{
 	width: 10px;
 	height: 140px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	z-index: 1;
 	left:20px;
@@ -261,7 +248,7 @@ body{
 .Jblock1{
 	width: 14px;
 	height: 100px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	z-index: 1;
 	left:20px;
@@ -270,7 +257,7 @@ body{
 .Jblock2{
 	width: 20px;
 	height: 20px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -281,7 +268,7 @@ body{
 .Jblock3{
 	width: 20px;
 	height: 20px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -294,7 +281,7 @@ body{
 .Lblock1{
 	width: 14px;
 	height: 100px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	z-index: 1;
 	right:20px;
@@ -303,7 +290,7 @@ body{
 .Lblock2{
 	width: 20px;
 	height: 20px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -314,7 +301,7 @@ body{
 .Lblock3{
 	width: 20px;
 	height: 20px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -327,7 +314,7 @@ body{
 .Nblock1{
 	width: 20px;
 	height: 20px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -340,7 +327,7 @@ body{
 .Pblock1{
 	width: 20px;
 	height: 20px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -353,7 +340,7 @@ body{
 .Sblock1{
 	width: 20px;
 	height: 20px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -366,7 +353,7 @@ body{
 .Tblock1{
 	width: 14px;
 	height: 100px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	z-index: 1;
 	right:20px;
@@ -375,7 +362,7 @@ body{
 .Tblock2{
 	width: 14px;
 	height: 100px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	z-index: 1;
 	left:20px;
@@ -384,7 +371,7 @@ body{
 .Tblock3{
 	width: 20px;
 	height: 20px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -397,7 +384,7 @@ body{
 .Xblock1{
 	width: 20px;
 	height: 20px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -408,7 +395,7 @@ body{
 .Xblock2{
 	width: 20px;
 	height: 20px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -419,7 +406,7 @@ body{
 .Xblock3{
 	width: 20px;
 	height: 20px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -430,7 +417,7 @@ body{
 .Xblock4{
 	width: 20px;
 	height: 20px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -443,7 +430,7 @@ body{
 .Yblock1{
 	width: 14px;
 	height: 70px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	z-index: 1;
 	right:20px;
@@ -452,7 +439,7 @@ body{
 .Yblock2{
 	width: 14px;
 	height: 70px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	z-index: 1;
 	left:20px;
@@ -461,7 +448,7 @@ body{
 .Yblock3{
 	width: 20px;
 	height: 20px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -472,7 +459,7 @@ body{
 .Yblock4{
 	width: 20px;
 	height: 20px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -485,7 +472,7 @@ body{
 .Zblock1{
 	width: 20px;
 	height: 20px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -496,7 +483,7 @@ body{
 .Zblock2{
 	width: 20px;
 	height: 20px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -514,7 +501,7 @@ body{
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
 	z-index: 1;
-	left:58px;
+	left:60px;
 	bottom:25px;
 }
 
@@ -531,7 +518,7 @@ body{
 .comma-block2{
 	width: 20px;
 	height: 20px;
-	background-color: yellow;
+	background-color: white;
 	position: absolute;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -540,153 +527,24 @@ body{
 	bottom:25px;
 }
 
-/*?????????????*/
-.question-block1{
-	width: 50px;
-	height: 90px;
-	background-color: black;
-	position: absolute;
-	z-index: 1;
-	left:50px;
-	bottom:60px;
-}
-.question-block2{
-	width: 20px;
-	height: 20px;
-	background-color: yellow;
-	position: absolute;
-	-webkit-transform: rotate(45deg);
-	transform: rotate(45deg);
-	z-index: 1;
-	left:40px;
-	bottom:110px;
-}
-.question-block3{
-	width: 20px;
-	height: 20px;
-	background-color: yellow;
-	position: absolute;
-	-webkit-transform: rotate(45deg);
-	transform: rotate(45deg);
-	z-index: 1;
-	left:90px;
-	bottom:140px;
-}
-.question-block4{
-	width: 20px;
-	height: 20px;
-	background-color: yellow;
-	position: absolute;
-	-webkit-transform: rotate(45deg);
-	transform: rotate(45deg);
-	z-index: 1;
-	left:90px;
-	bottom:80px;
-}
-.question-block5{
-	width: 20px;
-	height: 30px;
-	background-color: yellow;
-	position: absolute;
-	z-index: 1;
-	left:86px;
-	bottom:60px;
-}
+/*？？？？？？？？？？*/
 
-/*!!!!!!!!!!!!!!!*/
-.exclamation-block1{
-	width: 35px;
-	height: 90px;
-	background-color: black;
-	position: absolute;
-	z-index: 1;
-	left:50px;
-	bottom:60px;
-}
 
-/*111111111111111*/
-.one-block1{
-	width: 20px;
-	height: 105px;
-	background-color: yellow;
-	position: absolute;
-	z-index: 1;
-	left:20px;
-	bottom:20px;
-}
 
-/*444444444444444*/
-.four-block1{
-	width: 20px;
-	height: 80px;
-	background-color: yellow;
-	position: absolute;
-	z-index: 1;
-	right:20px;
-	bottom:80px;
-}
-.four-block2{
-	width: 40px;
-	height: 20px;
-	background-color: yellow;
-	position: absolute;
-	z-index: 1;
-	left:20px;
-	bottom:20px;
-}
-.four-block3{
-	width: 20px;
-	height: 20px;
-	background-color: yellow;
-	position: absolute;
-	z-index: 1;
-	right:20px;
-	bottom:20px;
-}
 
-/*666666666666666*/
-.six-block1{
-	width: 40px;
-	height: 70px;
-	background-color: yellow;
-	position: absolute;
-	z-index: 1;
-	right:20px;
-	bottom:90px;
-}
-.six-block2{
-	width: 20px;
-	height: 20px;
-	background-color: yellow;
-	position: absolute;
-	-webkit-transform: rotate(45deg);
-	transform: rotate(45deg);
-	z-index: 1;
-	right:10px;
-	bottom:80px;
-}
 
-/*77777777777777*/
-.seven-block1{
-	width: 30px;
-	height: 105px;
-	background-color: yellow;
-	position: absolute;
-	z-index: 1;
-	left:20px;
-	bottom:20px;
-}
 
-/*9999999999999*/
-.nine-block1{
-	width: 40px;
-	height: 70px;
-	background-color: yellow;
-	position: absolute;
-	z-index: 1;
-	left:20px;
-	bottom:20px;
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
