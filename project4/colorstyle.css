@@ -17,4 +17,11 @@ button{
 	font-family: 'Codystar', cursive;
 	font-weight: 300;
 	letter-spacing: 0.1em;
+	position: fixed;
+}
+
+#gif{
+	margin: 0;
+	z-index: -1;
+	display: none;
 }
