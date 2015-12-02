@@ -24,3 +24,12 @@ button{
 	z-index: -1;
 	display: none;
 }
+
+a{
+	color:black;
+	text-decoration: none;
+}
+
+a:visited{
+	color:black;
+}

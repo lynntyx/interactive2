@@ -1,11 +1,12 @@
 $(document).ready(function(){
 
 	$('#round1').mouseenter(function() {
- 		$('body').css("background","yellow");
- 		
+ 		$('body').css("background","orange");
+ 		$('#color').html('<p>Color Calibration</p>');
 	});
 	$('#round1').mouseleave(function() {
  		$('body').css("background","#f5f5f5");
+ 		$('#color').html('<div id="color">1</div>');
 	});
 
 	$('#round2').mouseenter(function() {

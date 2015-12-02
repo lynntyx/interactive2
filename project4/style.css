@@ -21,11 +21,21 @@ h2{
 	letter-spacing: 0.1em;
 	text-decoration: none;
 	color: #778899;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 }
 
 h3{
 	font-size: 30px;
+	text-transform: uppercase;
+	font-family: 'Codystar', cursive;
+	font-weight: 300;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+	color: #778899;
+}
+
+p{
+	font-size: 10px;
 	text-transform: uppercase;
 	font-family: 'Codystar', cursive;
 	font-weight: 300;
@@ -43,27 +53,49 @@ h3{
 	margin-top: 150px;
 }
 
+#color{
+	font-size: 30px;
+	text-transform: uppercase;
+	font-family: 'Codystar', cursive;
+	font-weight: 300;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+	color: #778899;
+}
+
+#gradient{
+	font-size: 30px;
+	text-transform: uppercase;
+	font-family: 'Codystar', cursive;
+	font-weight: 300;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+	color: #778899;
+}
+
 #round1{
-	width: 70px;
-	height: 70px;
+	width: 140px;
+	height: 35px;
 	/*border-radius: 50%;*/
+	display: flex;
 	background-color: white;
-	top:50px;
-	left: 200px;
 	display: inline-block;
+	text-align: center;
 	margin-left: 70px;
 	margin-right: 70px;
 	transition: all .5s ease-in-out;
 }
 
 #round2{
-	width: 70px;
-	height: 70px;
+	width: 140px;
+	height: 35px;
 	/*border-radius: 50%;*/
+	display: flex;
 	background-color: white;
-	top:50px;
-	left: 200px;
 	display: inline-block;
+	text-align: center;
 	margin-left: 70px;
 	margin-right: 70px;
 	transition: all .5s ease-in-out;
