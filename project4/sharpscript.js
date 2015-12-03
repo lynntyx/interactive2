@@ -5,8 +5,8 @@ $(document).ready(function(){
  		$('#toppic').addClass('moving')
  		$('#botpic').toggle();
  		$('button').html('<a href="index.html">Homepage</a>')
- 		$('button').css('margin-top','2200px');
-    	$('button').css('margin-bottom','400px');
+ 		$('button').css('margin-top','2700px');
+    	$('button').css('margin-bottom','60px');
     	$('button').css('color','#880000');
     	$('#congratulations').toggle();
 	});

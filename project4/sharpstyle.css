@@ -6,6 +6,7 @@
 body{
 	margin: 0;
 	background-color: #f5f5f5;
+	overflow-x: hidden;
 }
 
 #container{
@@ -52,9 +53,11 @@ button:hover{
 	position: absolute;
 	font-family: 'Codystar', sans-serif;
 	line-height: 1.5em;
-	font-size: 16px;
+	font-size: 70px;
 	text-transform: uppercase;
 	text-align: center;
+	width: 100%;
+	left: 0;
 }
 
 img{
