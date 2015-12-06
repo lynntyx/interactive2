@@ -4,6 +4,22 @@ body{
 	padding-top: 20px
 }
 
+a{
+	text-align: center;
+	text-decoration: none;
+	font-family: Helvetica;
+	font-size: 28px;
+	color: yellow;
+}
+
+a:visited{
+	color:yellow;
+}
+
+a:hover{
+	color:black;
+}
+
 .definition{
 	display: none;
 }
@@ -25,20 +41,22 @@ body{
 
 .menu1{
 	width:100px;
-	height: 140px;
+	height: 80px;
 	position: absolute;
 	background-color: white;
 	left:50px;
 	top:0px;
+	padding-top: 60px;
 }
 
 .menu2{
 	width:100px;
-	height: 140px;
+	height: 80px;
 	position: absolute;
 	background-color: white;
 	right:50px;
 	top:0px;
+	padding-top: 60px;
 }
 
 .pressed {

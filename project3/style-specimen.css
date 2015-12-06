@@ -4,6 +4,18 @@ body{
 	background-color: yellow;
 }
 
+a{
+	text-align: center;
+	text-decoration: none;
+	font-family: Helvetica;
+	font-size: 28px;
+	color: yellow;
+}
+
+a:visited{
+	color:yellow;
+}
+
 .letter-definition{
 	display: none;
 }
